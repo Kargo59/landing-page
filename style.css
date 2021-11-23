@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow: hidden;
+    min-height: 100vh;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: black;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row {
+    flex-grow: 1;
+}
+
+.header {
+    display: flex;
+    background-color: yellow;
+    min-height: 20px;
+}
+
+.first-row {
+    background-color:#1F2937;
+}
+
+.second-row {
+    background-color: white;
+}
+
+.third-row {
+    background-color: gray;
+}
+
+.fourth-row {
+    background-color: white;
+}
